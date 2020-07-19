@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; //1rem = 10px
+
+  @include respondMax(340px) {
+    font-size: 50%;
+  }
+
+  @include respondMax(tab-land) {
+    font-size: 56.25%; //1rem = 9px
+  }
+
+  @include respondMax(tab-port) {
+    font-size: 50%; //1rem = 8px
+  }
+
+  @include respondMax(big-desktop) {
+    font-size: 75%; //1rem = 12px
+  }
+}
+
+ul > li {
+  list-style: none;
+}
+a,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  border: none;
+}
+
+.case {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+// ::selection {
+//   background-color: #fff;
+//   color: #000;
+// }
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.f-center {
+  @include flexCenter();
+}
+
+// ::: bootstrap overrides ::
+
+// ::: tooltip styles ::
+// .tooltip {
+// }
+.tooltip-inner {
+  font-weight: 400;
+  color: $color-white;
+  background-color: $color-primary;
+
+  // position: relative;
+  // z-index: 999;
+  // opacity: 1;
+
+  font-size: 1.6rem;
+}
+
+.bs-tooltip-auto[x-placement^="top"] .arrow::before,
+.bs-tooltip-top .arrow::before {
+  border-top-color: $color-primary;
+}
+
+// .bs-tooltip-auto[x-placement^="right"] .arrow::before,
+// .bs-tooltip-right .arrow::before {
+//   border-right-color: red;
+// }
+// .bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+// .bs-tooltip-bottom .arrow::before {
+//   border-bottom-color: red;
+// }
+// .bs-tooltip-auto[x-placement^="left"] .arrow::before,
+// .bs-tooltip-left .arrow::before {
+//   border-left-color: red;
+// }

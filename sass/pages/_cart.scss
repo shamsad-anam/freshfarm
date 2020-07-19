@@ -1,0 +1,6 @@
+.cart-head {
+  border: 1px solid red;
+  @include flexCenter();
+  @include bdCover();
+  background-image: url("../../img/grain/paddy.jpg");
+}

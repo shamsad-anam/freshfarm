@@ -1,0 +1,48 @@
+.my-radius {
+  border-radius: 1rem;
+}
+
+.my-radius-b {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.img-cover {
+  @include imgCover();
+}
+
+.bg-grey {
+  background-color: $color-grey;
+}
+
+.bg-white-tp {
+  background-color: rgba($color-white, 0.9);
+}
+
+.my-link {
+  font-size: 1.4rem;
+  color: $color-primary;
+  &:hover {
+    color: $color-primary;
+    text-decoration: underline;
+  }
+}
+
+.read {
+  max-width: 65ch;
+}
+
+.read-sm {
+  max-width: 35ch;
+}
+
+.t-small {
+  font-size: 1.4rem;
+}
+
+.t-bold {
+  font-weight: 600;
+}
