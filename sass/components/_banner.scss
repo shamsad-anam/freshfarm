@@ -190,6 +190,13 @@
   background-color: $color-grey;
 }
 
+.card-img-sm {
+  object-fit: cover;
+  height: 8rem;
+  width: 8rem;
+  background-color: $color-grey;
+}
+
 // ::: group sider (big) banner controls :::
 .group-slider {
   position: relative;

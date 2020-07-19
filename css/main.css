@@ -163,12 +163,20 @@ body {
   max-width: 35ch;
 }
 
+.t-lg {
+  font-size: 1.8rem;
+}
+
 .t-small {
   font-size: 1.4rem;
 }
 
 .t-bold {
   font-weight: 600;
+}
+
+.u-w-15 {
+  width: 15%;
 }
 
 .my-btn {
@@ -444,6 +452,14 @@ body {
      object-fit: cover;
   height: 14rem;
   width: 14rem;
+  background-color: #f4f4f4;
+}
+
+.card-img-sm {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 8rem;
+  width: 8rem;
   background-color: #f4f4f4;
 }
 
@@ -1454,7 +1470,6 @@ body {
 }
 
 .cart-head {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1464,4 +1479,123 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+  .cart-body .case {
+    with: 100%;
+  }
+}
+
+.cart-body thead tr th {
+  border-bottom: 3px solid #40a944;
+}
+
+.cart-body tbody tr th,
+.cart-body tbody tr td {
+  border-top: 1px solid rgba(64, 169, 68, 0.4);
+}
+
+@media only screen and (max-width: 575px) {
+  .cart-body thead {
+    display: none;
+  }
+}
+
+.cart-body .cart-item {
+  padding: 1rem 0;
+}
+
+@media only screen and (max-width: 575px) {
+  .cart-body .cart-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cart-body .cart-item td {
+    width: 100%;
+  }
+}
+
+.cart-body th {
+  text-align: center;
+}
+
+.cart-body th,
+.cart-body td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 575px) {
+  .cart-body .cart-action {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+.cart-body .cart-action i {
+  font-size: 3rem;
+  color: #dbdbdb;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.cart-body .cart-action i:hover {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.cart-body form .form-control {
+  font-size: 2rem;
+}
+
+.cart-body form .form-control:focus {
+  border: 1px solid #40a944;
+}
+
+.cart-body form .form-control::-webkit-input-placeholder {
+  font-size: inherit;
+}
+
+.cart-body form .form-control:-ms-input-placeholder {
+  font-size: inherit;
+}
+
+.cart-body form .form-control::-ms-input-placeholder {
+  font-size: inherit;
+}
+
+.cart-body form .form-control::placeholder {
+  font-size: inherit;
+}
+
+.cart-body .cart-quantity {
+  width: 40%;
+}
+
+@media only screen and (max-width: 767px) {
+  .cart-body .cart-quantity {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .cart-body .cart-quantity {
+    width: 40%;
+  }
+}
+
+.cart-body .cart-quantity [type~="number"] {
+  padding: 1rem;
 }
