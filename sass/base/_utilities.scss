@@ -40,6 +40,15 @@
   }
 }
 
+.name-link-black {
+  font-size: 1.8rem;
+  color: red;
+  &:hover {
+    color: $color-primary;
+    text-decoration: underline;
+  }
+}
+
 .read {
   max-width: 65ch;
 }

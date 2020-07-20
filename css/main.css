@@ -175,6 +175,16 @@ body {
   text-decoration: underline;
 }
 
+.name-link-black {
+  font-size: 1.8rem;
+  color: red;
+}
+
+.name-link-black:hover {
+  color: #40a944;
+  text-decoration: underline;
+}
+
 .read {
   max-width: 65ch;
 }
