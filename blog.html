@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <header class="header position-relative">
-      <!-- ::: sub-header ::: -->
+    <!-- ::: sub-header ::: -->
+    <!-- <header class="header position-relative">
       <div class="header-sub">
         <div
           class="container d-flex justify-content-between align-items-center"
@@ -87,7 +87,7 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
     <!-- ::: top-header ::: -->
     <nav class="my-nav sticky-top bg-white-tp">
       <div class="case">
@@ -194,7 +194,276 @@
       </div>
     </nav>
 
-    <footer class="footer">
+    <!-- ::: bottom-header mobile navigation ::: -->
+    <nav class="header-bottom">
+      <ul class="header-bottom__menu">
+        <li class="header-bottom__item">
+          <a href="index.html" class="header-bottom__link">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <i class="bx bxs-home"></i>
+              <span>Home</span>
+            </div>
+          </a>
+        </li>
+        <li class="header-bottom__item">
+          <a href="index.html" class="header-bottom__link">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <i class="bx bxs-shopping-bags"></i>
+              <span>Shop</span>
+            </div>
+          </a>
+        </li>
+        <li class="header-bottom__item">
+          <a href="index.html" class="header-bottom__link">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <i class="bx bxs-user"></i>
+              <span>Account</span>
+            </div>
+          </a>
+        </li>
+        <li class="header-bottom__item">
+          <a href="index.html" class="header-bottom__link">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <i class="bx bxs-cart"></i>
+              <span>Cart</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="blog-header">
+      <!-- <h4 class="headding heading__secondary text-center">
+        Fresh Farm Blog
+      </h4> -->
+    </section>
+
+    <!-- ::: single post and sidebar ::: -->
+    <section class="s-post">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-7">
+            <div class="row flex-column">
+              <div class="col-12">
+                <div class="s-post__img"></div>
+              </div>
+              <div class="col-12">
+                <div class="s-post__content">
+                  <div class="s-post__title">
+                    <div class="s-blog__title">
+                      We grow our cattles with Love and Care
+                    </div>
+                  </div>
+                  <div class="s-post__info">
+                    <div class="s-post__date">
+                      <div class="f-center">
+                        <i class="bx bx-calendar"></i>
+                        28 January, 2020
+                      </div>
+                    </div>
+                    <div class="s-post__author mx-auto">
+                      <div class="f-center">
+                        <i class="bx bxs-pen"></i>
+                        Posted by <a href="#" class="ml-1 my-link">admin</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="s-post__desc">
+                    <p class="read-post">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ipsum nesciunt placeat, sapiente officia rem cumque
+                      corrupti explicabo consectetur natus. Officiis, vel
+                      voluptatibus, unde placeat tempore iure aliquid cupiditate
+                      adipisci sed recusandae culpa eveniet ducimus fugit vitae
+                      nostrum alias nobis facere voluptates nulla sit.
+                      <a href="#" class="my-link t-lg"
+                        >Molestias doloremque voluptatibus nostrum cupiditate
+                        accusantium eos tempora ut</a
+                      >
+                      dolore itaque illo, enim nemo a debitis quasi velit
+                      consequatur rem, animi molestiae quibusdam, est soluta. Ut
+                      soluta, eius molestiae numquam assumenda doloremque ea
+                      delectus odio eos sit! Eligendi aliquam delectus enim, quo
+                      alias nihil quam, vel hic mollitia asperiores debitis ad
+                      ut tenetur nulla? Ab, repudiandae iusto?
+                    </p>
+                    <p class="read-post">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Deserunt accusantium iure odit nam nihil expedita
+                      reprehenderit molestias aut consequatur optio?
+                    </p>
+                    <p class="read-post">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Deserunt accusantium iure odit nam nihil expedita
+                      reprehenderit molestias aut consequatur optio?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="s-post__footer">
+                  <div class="d-flex align-items-center">
+                    <div class="s-post__tag">
+                      <div class="d-flex align-items-center">
+                        <span class="text-green t-bold">Tags</span>
+                        <a href="#" class="my-link">Cattle</a>
+                        <a href="#" class="my-link">Farm</a>
+                        <a href="#" class="my-link">Calf</a>
+                      </div>
+                    </div>
+                    <div class="s-post__link mx-auto">
+                      <span class="text-green t-bold">Share</span>
+                      <a href="#"><i class="bx bxl-facebook"></i></a>
+                      <a href="#">
+                        <i class="bx bxl-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="bx bxl-twitter"></i>
+                      </a>
+                      <a href="#">
+                        <i class="bx bxl-pinterest"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5">
+            <div class="s-post__sidebar d-flex flex-column">
+              <div class="col-12 mt-5 mt-md-0">
+                <div>
+                  <h3 class="text-green text-right">Recent Posts</h3>
+                </div>
+                <figure class="sp-hori sp-hori--sm bg-grey">
+                  <a href="blogs-page.html">
+                    <img src="img/farm.jpg" alt="" class="card-img-sm" />
+                  </a>
+                  <figcaption class="sp-hori__info mx-3">
+                    <div class="t-bold lh-16 mb-2">
+                      <a href="#" class="my-link-black">
+                        Eco-friendly Equipments
+                      </a>
+                    </div>
+                    <small class="text-green">
+                      <div class="d-flex align-items-center">
+                        <i class="bx bxs-pen mr-2"></i>
+                        Posted by admin
+                      </div>
+                    </small>
+                  </figcaption>
+                </figure>
+                <figure class="sp-hori sp-hori--sm bg-grey">
+                  <a href="blogs-page.html">
+                    <img src="img/blog-3.jpg" alt="" class="card-img-sm" />
+                  </a>
+                  <figcaption class="sp-hori__info mx-3">
+                    <div class="t-bold lh-16 mb-2">
+                      <a href="#" class="my-link-black">
+                        Open Space for Cattles to roam
+                      </a>
+                    </div>
+                    <small class="text-green">
+                      <div class="d-flex align-items-center">
+                        <i class="bx bxs-pen mr-2"></i>
+                        Posted by admin
+                      </div>
+                    </small>
+                  </figcaption>
+                </figure>
+                <figure class="sp-hori sp-hori--sm bg-grey">
+                  <a href="blogs-page.html">
+                    <img src="img/farm.jpg" alt="" class="card-img-sm" />
+                  </a>
+                  <figcaption class="sp-hori__info mx-3">
+                    <div class="t-bold lh-16 mb-2">
+                      <a href="#" class="my-link-black">
+                        Organic foods with the right price
+                      </a>
+                    </div>
+                    <small class="text-green">
+                      <div class="d-flex align-items-center">
+                        <i class="bx bxs-pen mr-2"></i>
+                        Posted by admin
+                      </div>
+                    </small>
+                  </figcaption>
+                </figure>
+                <figure class="sp-hori sp-hori--sm bg-grey">
+                  <a href="blogs-page.html">
+                    <img
+                      src="img/fresh-farm-sm.jpg"
+                      alt=""
+                      class="card-img-sm"
+                    />
+                  </a>
+                  <figcaption class="sp-hori__info mx-3">
+                    <div class="t-bold lh-16 mb-2">
+                      <a href="#" class="my-link-black">
+                        Build on over 12 Hectors of area
+                      </a>
+                    </div>
+                    <small class="text-green">
+                      <div class="d-flex align-items-center">
+                        <i class="bx bxs-pen mr-2"></i>
+                        Posted by admin
+                      </div>
+                    </small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-12 mt-5">
+                <h3 class="text-green s-post__list-title">Categories</h3>
+                <div class="s-post__list">
+                  <a href="" class="my-link-black">
+                    Dairy
+                  </a>
+                  <a href="" class="my-link-black">
+                    Butter
+                  </a>
+                  <a href="" class="my-link-black">
+                    Cheese
+                  </a>
+                  <a href="" class="my-link-black">
+                    Milk
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 mt-5">
+                <h3 class="text-green s-post__list-title">
+                  Related Product Tags
+                </h3>
+                <div class="s-post__list">
+                  <a href="" class="my-link-black">
+                    Dairy
+                  </a>
+                  <a href="" class="my-link-black">
+                    Butter
+                  </a>
+                  <a href="" class="my-link-black">
+                    Cheese
+                  </a>
+                  <a href="" class="my-link-black">
+                    Milk
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ::: footer ::: -->
+    <footer class="footer bg-grey mt-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-sm-12">
@@ -258,51 +527,6 @@
       </div>
     </footer>
 
-    <!-- ::: bottom-header mobile navigation ::: -->
-    <nav class="header-bottom">
-      <ul class="header-bottom__menu">
-        <li class="header-bottom__item">
-          <a href="index.html" class="header-bottom__link">
-            <div
-              class="d-flex flex-column align-items-center justify-content-center"
-            >
-              <i class="bx bxs-home"></i>
-              <span>Home</span>
-            </div>
-          </a>
-        </li>
-        <li class="header-bottom__item">
-          <a href="index.html" class="header-bottom__link">
-            <div
-              class="d-flex flex-column align-items-center justify-content-center"
-            >
-              <i class="bx bxs-shopping-bags"></i>
-              <span>Shop</span>
-            </div>
-          </a>
-        </li>
-        <li class="header-bottom__item">
-          <a href="index.html" class="header-bottom__link">
-            <div
-              class="d-flex flex-column align-items-center justify-content-center"
-            >
-              <i class="bx bxs-user"></i>
-              <span>Account</span>
-            </div>
-          </a>
-        </li>
-        <li class="header-bottom__item">
-          <a href="index.html" class="header-bottom__link">
-            <div
-              class="d-flex flex-column align-items-center justify-content-center"
-            >
-              <i class="bx bxs-cart"></i>
-              <span>Cart</span>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </nav>
     <!-- ::: js libraries ::: -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

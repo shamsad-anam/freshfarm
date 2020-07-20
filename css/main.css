@@ -35,6 +35,16 @@ html {
   }
 }
 
+::-moz-selection {
+  background-color: #2d6a4f;
+  color: #fff;
+}
+
+::selection {
+  background-color: #2d6a4f;
+  color: #fff;
+}
+
 ul > li {
   list-style: none;
 }
@@ -142,7 +152,7 @@ body {
 }
 
 .bg-white-tp {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .my-link {
@@ -155,8 +165,22 @@ body {
   text-decoration: underline;
 }
 
+.my-link-black {
+  font-size: 1.4rem;
+  color: inherit;
+}
+
+.my-link-black:hover {
+  color: #40a944;
+  text-decoration: underline;
+}
+
 .read {
   max-width: 65ch;
+}
+
+.read-post {
+  max-width: 60ch;
 }
 
 .read-sm {
@@ -177,6 +201,10 @@ body {
 
 .t-italic {
   font-style: italic;
+}
+
+.lh-16 {
+  line-height: 16px;
 }
 
 .u-w-15 {
@@ -331,6 +359,10 @@ body {
   font-weight: 500;
 }
 
+.sd-ban a {
+  color: #fff;
+}
+
 .side-slider {
   position: relative;
   background-color: #fff;
@@ -372,6 +404,12 @@ body {
           justify-content: space-between;
   border-radius: 1rem;
   overflow: hidden;
+}
+
+.sp-hori--sm {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 @media only screen and (min-width: 430px) and (max-width: 575px) {
@@ -1040,12 +1078,15 @@ body {
   background-color: rgba(64, 169, 68, 0.1);
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .header-top__search .form-control:focus {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
+  background-color: #f4f4f4;
 }
 
 .header-top__search .form-control:focus + .input-group-append {
@@ -1060,6 +1101,7 @@ body {
   height: 100%;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  z-index: 9;
 }
 
 .header-top__search .input-group-text {
@@ -1092,6 +1134,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #40a944;
 }
 
 .header-top__login i {
@@ -1375,6 +1418,13 @@ body {
   padding-bottom: 100px;
 }
 
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .footer [class*="col-"] {
     text-align: center;
@@ -1624,4 +1674,116 @@ body {
 .cart-checkout .card-body .y2 {
   padding: 1rem 0;
   border-bottom: 1px solid #d6f0d6;
+}
+
+.blog-header {
+  margin: 2rem 0;
+}
+
+.s-post__img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../img/blog-1.jpg");
+  background-position: center top;
+  padding: 23rem 0;
+}
+
+.s-post__content {
+  background-color: #fff;
+  margin-top: -10rem;
+  border-radius: 2rem 2rem 5px 5px;
+  padding: 1.5rem;
+}
+
+.s-post__title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.s-post__desc {
+  font-size: 1.8rem;
+  line-height: 35px;
+}
+
+.s-post__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #777777;
+}
+
+.s-post__date i {
+  font-size: 2rem;
+  color: #40a944;
+  margin-right: 0.5rem;
+}
+
+.s-post__author i {
+  font-size: 2rem;
+  color: #40a944;
+  margin-right: 0.5rem;
+}
+
+.s-post__footer {
+  padding: 1.5rem;
+}
+
+.s-post__tag span {
+  margin-right: 1rem;
+}
+
+.s-post__tag a {
+  margin-right: 0.5rem;
+}
+
+.s-post__link a {
+  margin-right: 0.5rem;
+}
+
+.s-post__link i {
+  font-size: 2rem;
+}
+
+.s-post__list-title {
+  text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .s-post__list-title {
+    text-align: center;
+  }
+}
+
+.s-post__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .s-post__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .s-post__list a {
+    margin: 0 1rem;
+  }
 }

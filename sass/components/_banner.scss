@@ -80,6 +80,9 @@
       font-weight: 500;
     }
   }
+  & a {
+    color: $color-white;
+  }
 }
 
 // ::: sider banner controls :::
@@ -120,7 +123,9 @@
   justify-content: space-between;
   border-radius: 1rem;
   overflow: hidden;
-
+  &--sm {
+    justify-content: flex-start;
+  }
   @include respondBetween(430px, 575px) {
     justify-content: space-around;
     // border: 1px solid red;

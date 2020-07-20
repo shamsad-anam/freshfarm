@@ -19,7 +19,7 @@
 }
 
 .bg-white-tp {
-  background-color: rgba($color-white, 0.9);
+  background-color: rgba($color-white, 0.95);
 }
 
 .my-link {
@@ -31,8 +31,21 @@
   }
 }
 
+.my-link-black {
+  font-size: 1.4rem;
+  color: inherit;
+  &:hover {
+    color: $color-primary;
+    text-decoration: underline;
+  }
+}
+
 .read {
   max-width: 65ch;
+}
+
+.read-post {
+  max-width: 60ch;
 }
 
 .read-sm {
@@ -51,6 +64,10 @@
 
 .t-italic {
   font-style: italic;
+}
+
+.lh-16 {
+  line-height: 16px;
 }
 
 .u-w-15 {

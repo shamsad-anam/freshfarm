@@ -94,9 +94,6 @@
     padding: 1rem 1rem;
   }
 
-  // position: sticky;
-  // top: 0;
-
   &__logo {
     font-size: 3rem;
     font-weight: 600;
@@ -149,8 +146,12 @@
 
       transition: all 0.2s ease;
 
+      position: relative;
+      z-index: 1;
+
       &:focus {
         flex: 0 0 100%;
+        background-color: rgba($color-grey, 1);
       }
 
       //   @include respondMax() {
@@ -168,6 +169,8 @@
       display: inline-block;
       height: 100%;
       transition: all 0.2s ease;
+
+      z-index: 9;
     }
 
     & .input-group-text {
@@ -187,6 +190,7 @@
     font-size: 1.6rem;
     & a {
       display: flex;
+      color: $color-primary;
     }
 
     & i {

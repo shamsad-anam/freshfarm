@@ -26,6 +26,11 @@ html {
   }
 }
 
+::selection {
+  background-color: $color-primary-dark;
+  color: $color-white;
+}
+
 ul > li {
   list-style: none;
 }
@@ -34,6 +39,7 @@ a:active,
 a:hover,
 a:visited {
   text-decoration: none;
+  // color: $color-white;
   color: inherit;
   outline: none;
   border: none;
