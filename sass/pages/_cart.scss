@@ -1,15 +1,6 @@
 .cart-head {
   @include flexCenter();
-  @include bgCover();
-  //   background-image: linear-gradient(
-  //       90deg,
-  //       rgba($color-grey, 0.1),
-  //       rgba($color-grey, 1)
-  //     ),
-  //     url("../../img/frt/fruits-bowl.png");
-  //   background-position: top left;
-  //   background-size: contain;
-  //   height: 20rem;
+  margin: 3rem 0;
 }
 
 .cart-body {
@@ -31,7 +22,6 @@
     }
   }
   & .cart-item {
-    padding: 1rem 0;
     @include respondMax(575px) {
       display: flex;
       flex-direction: column;
@@ -47,12 +37,8 @@
   & th,
   & td {
     text-align: center;
-
     vertical-align: middle;
-  }
-
-  & tr {
-    //  @include respondMax()
+    padding: 1rem 0;
   }
 
   & .cart-action {
@@ -93,6 +79,20 @@
     }
     & [type~="number"] {
       padding: 1rem;
+    }
+  }
+}
+
+.cart-checkout {
+  margin-top: 5rem;
+  padding: 3rem 0;
+  & .card-header {
+    background-color: $color-primary-light !important;
+  }
+  & .card-body {
+    & .y2 {
+      padding: 1rem 0;
+      border-bottom: 1px solid $color-primary-light;
     }
   }
 }

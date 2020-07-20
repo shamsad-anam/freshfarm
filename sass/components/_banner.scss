@@ -293,6 +293,17 @@
   }
 }
 
+// ::: slider in cart page :::
+.cart-slider {
+  @extend .group-slider-vert;
+  & .slick-prev {
+    left: 0rem;
+  }
+  & .slick-next {
+    right: 0rem;
+  }
+}
+
 // ::: vertical banner :::
 .sp-vert {
   // max-height: 25rem;
