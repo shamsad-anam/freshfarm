@@ -106,3 +106,11 @@ $(".cart-slider").slick({
     // instead of a settings object
   ],
 });
+
+// ::: product variation slider :::
+$(".product-variation-slider").slick({
+  autoplay: false,
+  prevArrow: prevBtn,
+  nextArrow: nextBtn,
+  slidesToShow: 4,
+});

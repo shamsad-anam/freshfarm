@@ -480,3 +480,36 @@
     line-height: 20px;
   }
 }
+
+.product-variation-slider {
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+
+// ::: slick slider controls positions :::
+.s-controls-side {
+  & div:focus {
+    outline: none;
+  }
+
+  & .slick-prev,
+  & .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    cursor: pointer;
+
+    & i {
+      font-size: 2rem;
+      color: $color-black;
+    }
+  }
+  & .slick-prev {
+    left: 0;
+  }
+  & .slick-next {
+    right: 0;
+  }
+}

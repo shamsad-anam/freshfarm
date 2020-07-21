@@ -55,9 +55,18 @@ a:visited {
 //   color: #000;
 // }
 
-.form-control:focus {
-  outline: none;
+.form-control {
+  font-size: 2rem;
   box-shadow: none;
+  border-width: 2px;
+
+  &:focus {
+    border: 2px solid $color-primary;
+    box-shadow: none;
+  }
+  &::placeholder {
+    font-size: inherit;
+  }
 }
 
 .f-center {
@@ -98,3 +107,50 @@ a:visited {
 // .bs-tooltip-left .arrow::before {
 //   border-left-color: red;
 // }
+
+// ::: boostrap checkbox color :::
+// .custom-control-input,
+// .custom-control-input:focus {
+//   box-shadow: none;
+
+// }
+// .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+//   border-color: $color-primary;
+//   background-color: $color-primary;
+//   box-shadow: none;
+// }
+// .custom-control-label::after {
+// }
+
+.custom-control-input-green:focus ~ .custom-control-label::before {
+  border-color: #28a745 !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+}
+
+.custom-control-input-green:checked ~ .custom-control-label::before {
+  border-color: #28a745 !important;
+  background-color: #28a745 !important;
+}
+
+.custom-control-input-green:focus:not(:checked)
+  ~ .custom-control-label::before {
+  border-color: #5bd778 !important;
+}
+
+.custom-control-input-green:not(:disabled):active
+  ~ .custom-control-label::before {
+  background-color: #d6f5dd !important;
+  border-color: #d6f5dd !important;
+}
+
+.custom-control-label::before {
+  width: 2rem;
+  height: 2rem;
+  left: -2.5rem;
+}
+
+.custom-control-label::after {
+  width: 2rem;
+  height: 2rem;
+  left: -2.5rem;
+}
