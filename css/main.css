@@ -240,6 +240,13 @@ body {
   font-size: inherit;
 }
 
+input[type="submit"] {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .f-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -294,6 +301,13 @@ body {
   width: 2rem;
   height: 2rem;
   left: -2.5rem;
+}
+
+.valid-feedback,
+.invalid-feedback {
+  display: block;
+  opacity: 0;
+  position: absolute;
 }
 
 .my-btn {
@@ -1991,4 +2005,18 @@ body {
 .related-product-section,
 .upsell-product-section {
   padding: 3rem 0;
+}
+
+.contact-section {
+  margin: 1rem 0;
+  padding: 1rem 0 3rem 0;
+}
+
+.contact__map {
+  width: 100%;
+  height: 30rem;
+}
+
+.contact__title {
+  font-size: 2.5rem;
 }
