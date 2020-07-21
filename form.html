@@ -26,7 +26,7 @@
   <body>
     <header class="header position-relative">
       <!-- ::: sub-header ::: -->
-      <!-- <div class="header-sub">
+      <div class="header-sub">
         <div
           class="container d-flex justify-content-between align-items-center"
         >
@@ -86,7 +86,7 @@
             ></a>
           </div>
         </div>
-      </div> -->
+      </div>
     </header>
     <!-- ::: top-header ::: -->
     <nav class="my-nav sticky-top bg-white-tp">
@@ -243,184 +243,88 @@
       </ul>
     </nav>
 
-    <div class="reg-form-section bg-grey">
-      <div class="container">
-        <div class="row justify-content-center">
-          <h4 class="headding heading__secondary text-center mt-3 mb-5">
-            For a better experience use an account
-          </h4>
-        </div>
-        <div class="row">
-          <!-- ::: login form ::: -->
-          <div class="col-md-5 offset-md-1">
-            <form action="" class="bg-white my-radius py-5 px-4">
-              <div class="t-md mb-4 contact__title text-center">
-                Login to an Existing Account
-              </div>
-              <div class="row mb-5">
-                <label for="name" class="col-12">
-                  Username
-                </label>
-                <div class="col-12">
-                  <input type="text" class="form-control" id="username" />
-                  <div class="valid-feedback">
-                    Username is Okay!
-                  </div>
-                  <div class="invalid-feedback">
-                    Please use a valid username!
-                  </div>
-                </div>
-              </div>
-              <div class="row mb-5">
-                <label for="name" class="col-12">
-                  Password
-                </label>
-                <div class="col-12">
-                  <input type="password" class="form-control" id="password" />
-                  <div class="valid-feedback"></div>
-                  <div class="invalid-feedback">
-                    Please use a valid password!
-                  </div>
-                </div>
-              </div>
-              <div class="row pt-3">
-                <div class="col-12">
-                  <input
-                    type="submit"
-                    name="login"
-                    class="my-btn w-100"
-                    value="Login"
-                  />
-                </div>
-              </div>
-            </form>
-          </div>
-          <!-- ::: registration form ::: -->
-          <div class="col-md-6 mt-5 mt-md-0">
-            <form action="" class="bg-white my-radius bg-white py-5 px-4">
-              <div class="t-md mb-4 contact__title text-center">
-                Create a New Account
-              </div>
+    <!-- <h4 class="headding heading__primary text-center mb-5">
+             We are famous for
+        </h4> -->
 
-              <!-- ::: username ::: -->
-              <div class="row mb-5">
-                <label for="name" class="col-12">
-                  Choose an Username
-                  <span class="text-green">*</span>
-                </label>
-                <div class="col-12">
-                  <input
-                    type="password"
-                    class="form-control"
-                    name="usernameReg"
-                    id="usernameReg"
-                  />
-                  <div class="valid-feedback">
-                    Username is Okay!
-                  </div>
-                  <div class="invalid-feedback">
-                    At least 3-30 characters, only "_" allowed(not at start)
-                  </div>
-                </div>
-              </div>
-              <!-- ::: fullname ::: -->
-              <!-- <div class="row mb-5">
-                <label for="name" class="col-12">
-                  Your Fullname
-                  <span class="text-green">*</span>
-                </label>
-                <div class="col-12">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="fullnameReg"
-                    placeholder="First and Last Name"
-                  />
-                  <div class="valid-feedback"></div>
-                  <div class="invalid-feedback">
-                    Please Enter your Fullname
-                  </div>
-                </div>
-              </div> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <form action="">
+            <div class="t-md mb-4 contact__title">
+              Send us a mail
+            </div>
 
-              <!-- ::: email ::: -->
-              <div class="row mb-5">
-                <label for="name" class="col-12">
-                  Email
-                  <span class="text-green">*</span>
-                </label>
-                <div class="col-12">
-                  <input type="email" class="form-control" id="email" />
-                  <div class="valid-feedback">
-                    Email is Okay!
-                  </div>
-                  <div class="invalid-feedback">
-                    Please add an valid email!
-                  </div>
+            <div class="row mb-5">
+              <label for="name" class="col-12">
+                Name
+                <span class="text-green">*</span>
+              </label>
+              <div class="col-12">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="row mb-5">
+              <label for="name" class="col-12">
+                Email
+                <span class="text-green">*</span>
+              </label>
+              <div class="col-12">
+                <input type="email" class="form-control" id="email" />
+                <div class="valid-feedback">
+                  Email is Okay!
+                </div>
+                <div class="invalid-feedback">
+                  Please add a valid email!
                 </div>
               </div>
-
-              <!-- ::: password ::: -->
-              <div class="row mb-5">
-                <label for="name" class="col-12">
-                  Password
-                  <span class="text-green">*</span>
-                </label>
-                <div class="col-12">
-                  <input
-                    type="password"
-                    class="form-control"
-                    name="passwordReg"
-                    id="passwordReg"
-                  />
-                  <div class="valid-feedback">
-                    Password is Okay!
-                  </div>
-                  <div class="invalid-feedback pr-2">
-                    Password must be 6-20 characters and include 1 upper & 1
-                    lower case letter, 1 number/special character
-                  </div>
+            </div>
+            <div class="row mb-5">
+              <label for="name" class="col-12">
+                Subject
+                <span class="text-green">*</span>
+              </label>
+              <div class="col-12">
+                <input type="text" class="form-control" id="subject" />
+                <div class="valid-feedback">
+                  Subject is Okay!
+                </div>
+                <div class="invalid-feedback">
+                  Please choose a subject!
                 </div>
               </div>
-              <!-- ::: confitm password ::: -->
-              <div class="row pt-3 mb-5">
-                <label for="name" class="col-12">
-                  Confirm Password
-                  <span class="text-green">*</span>
-                </label>
-                <div class="col-12">
-                  <input
-                    type="password"
-                    class="form-control"
-                    name="passwordRegConfirm"
-                    id="passwordRegConfirm"
-                  />
-                  <div class="valid-feedback">
-                    Passwords Match!
-                  </div>
-                  <div class="invalid-feedback">
-                    Please enter the same password!
-                  </div>
+            </div>
+            <div class="row mb-5">
+              <label for="comment" class="col-12 t-lg">Your Message </label>
+              <div class="col-12">
+                <textarea
+                  name="message"
+                  id="msg"
+                  cols="30"
+                  rows="5"
+                  placeholder=""
+                  class="form-control"
+                ></textarea>
+                <div class="valid-feedback"></div>
+                <div class="invalid-feedback">
+                  Please Describe Your Feelings
                 </div>
               </div>
-
-              <!-- ::: register submit ::: -->
-              <div class="row pt-3">
-                <div class="col-12">
-                  <input
-                    type="submit"
-                    name="register"
-                    class="my-btn w-100"
-                    value="Register"
-                  />
-                </div>
+            </div>
+            <div class="row pt-3">
+              <div class="col-12">
+                <input
+                  type="submit"
+                  name="add-comment "
+                  class="my-btn w-100"
+                  value="Send Message"
+                />
               </div>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
-
     <!-- ::: footer :::  -->
     <footer class="footer">
       <div class="container">
