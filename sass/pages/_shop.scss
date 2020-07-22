@@ -1,0 +1,17 @@
+.shop-page {
+  border: 1px solid red;
+}
+
+.filter-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-grid {
+}
+
+.filter-item {
+  & a {
+    margin: 0 auto;
+  }
+}

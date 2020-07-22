@@ -2025,3 +2025,20 @@ input[type="submit"] {
   margin: 1rem 0;
   padding: 0 0 4rem 0;
 }
+
+.shop-page {
+  border: 1px solid red;
+}
+
+.filter-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filter-item a {
+  margin: 0 auto;
+}
