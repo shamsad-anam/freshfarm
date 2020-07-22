@@ -1,5 +1,11 @@
 .shop-page {
-  border: 1px solid red;
+  margin: 2rem 0;
+  padding: 4rem 0;
+  background-color: $color-grey;
+
+  //   & .case {
+  //     max-width: 90%;
+  //   }
 }
 
 .filter-menu {
@@ -8,9 +14,21 @@
 }
 
 .filter-grid {
+  & .col-c-sm-6 {
+    @include respondBetween(550px, 767px) {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
 }
 
 .filter-item {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  @include respondMin(1200px) {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
   & a {
     margin: 0 auto;
   }

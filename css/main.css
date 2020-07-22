@@ -789,6 +789,156 @@ input[type="submit"] {
   font-size: 1.2rem;
 }
 
+.sp-vth__info {
+  text-align: center;
+}
+
+.sp-vth__name {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.sp-vth__tag {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.sp-vth__tag:hover {
+  color: #40a944;
+  cursor: pointer;
+}
+
+.sp-vth__price span {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.sp-vth__price del {
+  font-size: 1.4rem;
+}
+
+.sp-vth__cta {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sp-vth__cta a {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.sp-vth__cta i {
+  font-size: 2rem;
+  color: #40a944;
+  background-color: #fff;
+  padding: 2px 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.sp-vth__cta i:hover {
+  cursor: pointer;
+}
+
+.sp-vth small {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .sp-vth {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sp-vth img {
+    width: 8rem;
+    height: 8rem;
+  }
+  .sp-vth__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .sp-vth__details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sp-vth__cta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    height: 100%;
+  }
+  .sp-vth__pna {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .sp-vth__price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 680px) {
+  .sp-vth {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sp-vth__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .sp-vth__cta {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 .card-img-vert {
   width: 10rem;
   height: 10rem;
@@ -2027,7 +2177,9 @@ input[type="submit"] {
 }
 
 .shop-page {
-  border: 1px solid red;
+  margin: 2rem 0;
+  padding: 4rem 0;
+  background-color: #f4f4f4;
 }
 
 .filter-menu {
@@ -2037,6 +2189,27 @@ input[type="submit"] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+  .filter-grid .col-c-sm-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.filter-item {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .filter-item {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
 }
 
 .filter-item a {
