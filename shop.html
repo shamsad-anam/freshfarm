@@ -251,22 +251,34 @@
       <div class="case">
         <div class="row">
           <!-- ::: products ::: -->
-          <div class="col-md-9 justify-content-center">
+          <div class="col-lg-8 justify-content-center">
             <div class="filter-menu">
               <div class="button-group filters-button-group">
-                <button class="button is-checked" data-filter="*">
-                  All
-                </button>
-                <button class="button" data-filter=".f-veggie">
-                  Vegetables
-                </button>
-                <button class="button" data-filter=".f-fruit">Fruits</button>
-                <button class="button" data-filter=".f-grain">Grains</button>
-                <button class="button" data-filter=".f-spice">Spice</button>
+                <div class="col-3 ml-5 filter-icon">
+                  <i class="bx bx-filter-alt"></i>
+                  Filters
+                </div>
+                <div class="">
+                  <button class="filter-btn active is-checked" data-filter="*">
+                    All
+                  </button>
+                  <button class="filter-btn" data-filter=".f-veggie">
+                    Vegetables
+                  </button>
+                  <button class="filter-btn" data-filter=".f-fruit">
+                    Fruits
+                  </button>
+                  <button class="filter-btn" data-filter=".f-grain">
+                    Grains
+                  </button>
+                  <button class="filter-btn" data-filter=".f-spice">
+                    Spice
+                  </button>
+                </div>
               </div>
             </div>
-            <div class="filter-grid row">
-              <div class="filter-item f-veggie col-sm-4 col-c-sm-6">
+            <div class="filter-grid row bg-grey py-3">
+              <div class="filter-item f-veggie col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -291,8 +303,9 @@
                     </div>
                     <div class="sp-vth__pna">
                       <div class="sp-vth__price">
+                       
                         <span class="text-green">
-                          $12.99<small class="text-green">/kg</small>
+                          $<span class="price">99.99</span><small class="text-green">/kg</small>
                         </span>
                         <del>$20.99<small>/kg</small></del>
                       </div>
@@ -320,7 +333,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-fruit col-sm-4 col-c-sm-6">
+              <div class="filter-item f-fruit col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img src="img/frt/pear.png" alt="" class="card-img-vert" />
@@ -370,7 +383,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-veggie col-sm-4 col-c-sm-6">
+              <div class="filter-item f-veggie col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -424,7 +437,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-grain col-sm-4 col-c-sm-6">
+              <div class="filter-item f-grain col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -478,7 +491,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-fruit col-sm-4 col-c-sm-6">
+              <div class="filter-item f-fruit col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -532,7 +545,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-veggie col-sm-4 col-c-sm-6">
+              <div class="filter-item f-veggie col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -586,7 +599,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-spice col-sm-4 col-c-sm-6">
+              <div class="filter-item f-spice col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -640,7 +653,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-fruit col-sm-4 col-c-sm-6">
+              <div class="filter-item f-fruit col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -694,7 +707,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-veggie col-sm-4 col-c-sm-6">
+              <div class="filter-item f-veggie col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -748,7 +761,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-spice col-sm-4 col-c-sm-6">
+              <div class="filter-item f-spice col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -802,7 +815,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-fruit col-sm-4 col-c-sm-6">
+              <div class="filter-item f-fruit col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -856,7 +869,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="filter-item f-veggie col-sm-4 col-c-sm-6">
+              <div class="filter-item f-veggie col-lg-4 col-md-6 col-c-sm-6">
                 <figure class="sp-vth card">
                   <a href="single-product.html">
                     <img
@@ -928,7 +941,7 @@
                       </div>
 
                       <div class="sp-vth__tag">
-                        Spice
+                        Spice, Vegetables
                       </div>
 
                       <small class="text-green">Available</small>
@@ -1449,8 +1462,268 @@
             </div>
           </div>
           <!-- ::: sidebar ::: -->
-          <div class="col-md-3">
-            sidebar
+          <div class="col-lg-4 mt-5 ">
+            <div class="s-post__sidebar d-flex flex-column mt-5">
+              <div class="col-12 mt-md-8">
+                <div>
+                  <h3 class="text-green text-right">Find the right price</h3>
+                </div>
+                <div class="s-post__list">
+                  <form action="">
+                    <div class="form-group d-flex flex-column">
+                      <label for=""><span class="t-small">Between</span> $<span id="minPrice">1</span> - $<span id="maxPrice">100</span></label>
+                      <input type="range" min="1" max="100" value="100" class="range-filter-input" id="filterRange" data-filter="greaterThan">
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div class="col-12 mt-5">
+                <div>
+                  <h3 class="text-green text-right">Select by Origin</h3>
+                </div>
+                <div class="s-post__list">
+                  <a href="" class="my-link-black">
+                    USA
+                  </a>
+                  <a href="" class="my-link-black">
+                    UK
+                  </a>
+                  <a href="" class="my-link-black">
+                    Bangladesh
+                  </a>
+                  <a href="" class="my-link-black">
+                    China
+                  </a>
+                  <a href="" class="my-link-black">
+                    Indonesia
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 mt-5">
+                <h3 class="text-green s-post__list-title">
+                  Select by Categories
+                </h3>
+                <div class="s-post__list">
+                  <a href="" class="my-link-black">
+                    All
+                  </a>
+                  <a href="" class="my-link-black">
+                    Vegetables
+                  </a>
+                  <a href="" class="my-link-black">
+                    Fruits
+                  </a>
+                  <a href="" class="my-link-black">
+                    Grains
+                  </a>
+                  <a href="" class="my-link-black">
+                    Spices
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 mt-5">
+                <div class="mb-3">
+                  <h3 class="text-green text-right">Latest Products</h3>
+                </div>
+                <div class="row py-4 bg-grey">
+                  <div class="col-6 pl-3 pr-3">
+                    <figure class="sp-hori sp-hori--sm bg-white">
+                      <a href="single-product.html">
+                        <img
+                          src="img/frt/peach.png"
+                          alt=""
+                          class="card-img-sm card-img-sm--white"
+                        />
+                      </a>
+                      <figcaption class="sp-hori__info mx-3">
+                        <div class="t-bold lh-16 mb-2">
+                          <a href="#" class="my-link-black t-mini">
+                            Peach
+                          </a>
+                        </div>
+                        <small class="text-green d-block t-tiny">
+                          Fruits
+                        </small>
+                        <small class="text-green d-block t-tiny">
+                          $12.99
+                        </small>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6 pl-3 pr-3">
+                    <figure class="sp-hori sp-hori--sm bg-white">
+                      <a href="single-product.html">
+                        <img
+                          src="img/frt/lemon.png"
+                          alt=""
+                          class="card-img-sm card-img-sm--white"
+                        />
+                      </a>
+                      <figcaption class="sp-hori__info mx-3">
+                        <div class="t-bold lh-16 mb-2">
+                          <a href="#" class="my-link-black t-mini">
+                            Lemon
+                          </a>
+                        </div>
+                        <small class="text-green d-block t-tiny">
+                          Fruits
+                        </small>
+                        <small class="text-green d-block t-tiny">
+                          $12.99
+                        </small>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6 pl-3 pr-3">
+                    <figure class="sp-hori sp-hori--sm bg-white">
+                      <a href="single-product.html">
+                        <img
+                          src="img/veggie/capsicum.png"
+                          alt=""
+                          class="card-img-sm card-img-sm--white"
+                        />
+                      </a>
+                      <figcaption class="sp-hori__info mx-3">
+                        <div class="t-bold lh-16 mb-2">
+                          <a href="single-product.html" class="my-link-black t-tiny">
+                            Capsicum
+                          </a>
+                        </div>
+                        <small class="text-green d-block t-tiny">
+                          Spice, Vegetables
+                        </small>
+                        <small class="text-green d-block t-tiny">
+                          $12.99
+                        </small>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6 pl-3 pr-3">
+                    <figure class="sp-hori sp-hori--sm bg-white">
+                      <a href="single-product.html">
+                        <img
+                          src="img/veggie/cucumber.png"
+                          alt=""
+                          class="card-img-sm card-img-sm--white"
+                        />
+                      </a>
+                      <figcaption class="sp-hori__info mx-3">
+                        <div class="t-bold lh-16 mb-2">
+                          <a href="single-product.html" class="my-link-black t-tiny">
+                            Cucumber
+                          </a>
+                        </div>
+                        <small class="text-green d-block t-tiny">
+                          Vegetables
+                        </small>
+                        <small class="text-green d-block t-tiny">
+                          $12.99
+                        </small>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6 pl-3 pr-3">
+                    <figure class="sp-hori sp-hori--sm bg-white">
+                      <a href="single-product.html">
+                        <img
+                          src="img/frt/peach.png"
+                          alt=""
+                          class="card-img-sm card-img-sm--white"
+                        />
+                      </a>
+                      <figcaption class="sp-hori__info mx-3">
+                        <div class="t-bold lh-16 mb-2">
+                          <a href="#" class="my-link-black t-mini">
+                            Peach
+                          </a>
+                        </div>
+                        <small class="text-green d-block t-tiny">
+                          Fruits
+                        </small>
+                        <small class="text-green d-block t-tiny">
+                          $12.99
+                        </small>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6 pl-3 pr-3">
+                    <figure class="sp-hori sp-hori--sm bg-white">
+                      <a href="single-product.html">
+                        <img
+                          src="img/frt/lemon.png"
+                          alt=""
+                          class="card-img-sm card-img-sm--white"
+                        />
+                      </a>
+                      <figcaption class="sp-hori__info mx-3">
+                        <div class="t-bold lh-16 mb-2">
+                          <a href="#" class="my-link-black t-mini">
+                            Lemon
+                          </a>
+                        </div>
+                        <small class="text-green d-block t-tiny">
+                          Fruits
+                        </small>
+                        <small class="text-green d-block t-tiny">
+                          $12.99
+                        </small>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6 pl-3 pr-3">
+                    <figure class="sp-hori sp-hori--sm bg-white">
+                      <a href="single-product.html">
+                        <img
+                          src="img/veggie/capsicum.png"
+                          alt=""
+                          class="card-img-sm card-img-sm--white"
+                        />
+                      </a>
+                      <figcaption class="sp-hori__info mx-3">
+                        <div class="t-bold lh-16 mb-2">
+                          <a href="single-product.html" class="my-link-black t-tiny">
+                            Capsicum
+                          </a>
+                        </div>
+                        <small class="text-green d-block t-tiny">
+                          Spice, Vegetables
+                        </small>
+                        <small class="text-green d-block t-tiny">
+                          $12.99
+                        </small>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-6 pl-3 pr-3">
+                    <figure class="sp-hori sp-hori--sm bg-white">
+                      <a href="single-product.html">
+                        <img
+                          src="img/veggie/cucumber.png"
+                          alt=""
+                          class="card-img-sm card-img-sm--white"
+                        />
+                      </a>
+                      <figcaption class="sp-hori__info mx-3">
+                        <div class="t-bold lh-16 mb-2">
+                          <a href="single-product.html" class="my-link-black t-tiny">
+                            Cucumber
+                          </a>
+                        </div>
+                        <small class="text-green d-block t-tiny">
+                          Vegetables
+                        </small>
+                        <small class="text-green d-block t-tiny">
+                          $12.99
+                        </small>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
