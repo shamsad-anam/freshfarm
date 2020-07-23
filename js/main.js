@@ -21,9 +21,11 @@ const filterRange = document.querySelector("#filterRange");
 const minPrice = document.querySelector("#minPrice");
 const maxPrice = document.querySelector("#maxPrice");
 
-filterRange.addEventListener("click", (e) => {
-  maxPrice.innerHTML = e.target.value;
-});
+if (filterRange) {
+  filterRange.addEventListener("click", (e) => {
+    maxPrice.innerHTML = e.target.value;
+  });
+}
 
 // ::: copyright year :::
 document.getElementById("year").innerHTML = new Date().getFullYear();
