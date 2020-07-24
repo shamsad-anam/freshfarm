@@ -25,7 +25,7 @@
           rgba($color-primary, 0.2),
           rgba($color-primary, 0.2)
         ),
-        url("../../img/veggie-bg.jpg");
+        url("../img/veggie-bg.jpg");
     }
     &--2 {
       background-image: linear-gradient(
@@ -33,7 +33,7 @@
           rgba($color-primary, 0.2),
           rgba($color-primary, 0.2)
         ),
-        url("../../img/grapes.jpg");
+        url("../img/grapes.jpg");
     }
     &--3 {
       background-image: linear-gradient(
@@ -41,7 +41,7 @@
           rgba($color-primary, 0.2),
           rgba($color-primary, 0.2)
         ),
-        url("../../img/grain/grain-wheat.jpg");
+        url("../img/grain/grain-wheat.jpg");
     }
   }
 

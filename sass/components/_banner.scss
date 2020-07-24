@@ -534,17 +534,17 @@
   &__up {
     @include bgCover();
     &--1 {
-      background-image: url(../../img/fresh-farm-sm.jpg);
+      background-image: url("../img/fresh-farm-sm.jpg");
     }
     &--2 {
-      background-image: url(../../img/blog-1.jpg);
+      background-image: url("../img/blog-1.jpg");
       background-position: top;
     }
     &--3 {
-      background-image: url(../../img/blog-2.jpg);
+      background-image: url("../img/blog-2.jpg");
     }
     &--4 {
-      background-image: url(../../img/blog-3.jpg);
+      background-image: url("../img/blog-3.jpg");
     }
   }
   &__down {

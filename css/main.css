@@ -1054,20 +1054,20 @@ input[type="submit"] {
 }
 
 .blog-card__up--1 {
-  background-image: url(../../img/fresh-farm-sm.jpg);
+  background-image: url("../img/fresh-farm-sm.jpg");
 }
 
 .blog-card__up--2 {
-  background-image: url(../../img/blog-1.jpg);
+  background-image: url("../img/blog-1.jpg");
   background-position: top;
 }
 
 .blog-card__up--3 {
-  background-image: url(../../img/blog-2.jpg);
+  background-image: url("../img/blog-2.jpg");
 }
 
 .blog-card__up--4 {
-  background-image: url(../../img/blog-3.jpg);
+  background-image: url("../img/blog-3.jpg");
 }
 
 .blog-card__down {
@@ -1670,18 +1670,18 @@ input[type="submit"] {
 }
 
 .hero__slide--1 {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(64, 169, 68, 0.2)), to(rgba(64, 169, 68, 0.2))), url("../../img/veggie-bg.jpg");
-  background-image: linear-gradient(90deg, rgba(64, 169, 68, 0.2), rgba(64, 169, 68, 0.2)), url("../../img/veggie-bg.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(64, 169, 68, 0.2)), to(rgba(64, 169, 68, 0.2))), url("../img/veggie-bg.jpg");
+  background-image: linear-gradient(90deg, rgba(64, 169, 68, 0.2), rgba(64, 169, 68, 0.2)), url("../img/veggie-bg.jpg");
 }
 
 .hero__slide--2 {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(64, 169, 68, 0.2)), to(rgba(64, 169, 68, 0.2))), url("../../img/grapes.jpg");
-  background-image: linear-gradient(90deg, rgba(64, 169, 68, 0.2), rgba(64, 169, 68, 0.2)), url("../../img/grapes.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(64, 169, 68, 0.2)), to(rgba(64, 169, 68, 0.2))), url("../img/grapes.jpg");
+  background-image: linear-gradient(90deg, rgba(64, 169, 68, 0.2), rgba(64, 169, 68, 0.2)), url("../img/grapes.jpg");
 }
 
 .hero__slide--3 {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(64, 169, 68, 0.2)), to(rgba(64, 169, 68, 0.2))), url("../../img/grain/grain-wheat.jpg");
-  background-image: linear-gradient(90deg, rgba(64, 169, 68, 0.2), rgba(64, 169, 68, 0.2)), url("../../img/grain/grain-wheat.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(64, 169, 68, 0.2)), to(rgba(64, 169, 68, 0.2))), url("../img/grain/grain-wheat.jpg");
+  background-image: linear-gradient(90deg, rgba(64, 169, 68, 0.2), rgba(64, 169, 68, 0.2)), url("../img/grain/grain-wheat.jpg");
 }
 
 .hero__title {
@@ -2006,7 +2006,7 @@ input[type="submit"] {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../img/blog-1.jpg");
+  background-image: url("../img/blog-1.jpg");
   background-position: center top;
   padding: 23rem 0;
 }

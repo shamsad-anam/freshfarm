@@ -6,7 +6,7 @@
   //   background-color: $color-grey;
   &__img {
     @include bgCover();
-    background-image: url("../../img/blog-1.jpg");
+    background-image: url("../img/blog-1.jpg");
     background-position: center top;
     padding: 23rem 0;
   }

@@ -14,6 +14,7 @@ $(".hero").slick({
 $(".testimonials").slick({
   autoplay: true,
   speed: 2000,
+  autoplaySpeed: 5000,
   prevArrow: prevBtn,
   nextArrow: nextBtn,
 });
