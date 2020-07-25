@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/*
+* All rights reserved © 2020 shamsad anam
+* This project was completed by shamsad anam on 22/07/2020
+*/
 *,
 *::after,
 *::before {
@@ -174,7 +179,7 @@ body {
 
 .name-link-black {
   font-size: 1.8rem;
-  color: red;
+  color: #000;
 }
 
 .name-link-black:hover {
@@ -989,7 +994,7 @@ input[type="submit"] {
 
 @media only screen and (max-width: 575px) {
   .card-img-vert {
-    widht: 8rem;
+    width: 8rem;
     height: 8rem;
   }
 }
@@ -1873,7 +1878,7 @@ input[type="submit"] {
 
 @media only screen and (max-width: 767px) {
   .cart-body .case {
-    with: 100%;
+    width: 100%;
   }
 }
 

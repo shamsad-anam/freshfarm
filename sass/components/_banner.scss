@@ -482,7 +482,7 @@
   object-fit: contain;
 
   @include respondMax(575px) {
-    widht: 8rem;
+    width: 8rem;
     height: 8rem;
   }
 }

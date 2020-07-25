@@ -13,7 +13,7 @@ $(".hero").slick({
 // ::: testimonials section :::
 $(".testimonials").slick({
   autoplay: true,
-  speed: 2000,
+  speed: 1500,
   autoplaySpeed: 5000,
   prevArrow: prevBtn,
   nextArrow: nextBtn,

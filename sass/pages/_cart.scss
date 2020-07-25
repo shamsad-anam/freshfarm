@@ -6,7 +6,7 @@
 .cart-body {
   & .case {
     @include respondMax(767px) {
-      with: 100%;
+      width: 100%;
     }
   }
   & thead tr th {

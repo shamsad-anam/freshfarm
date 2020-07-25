@@ -42,7 +42,7 @@
 
 .name-link-black {
   font-size: 1.8rem;
-  color: red;
+  color: $color-black;
   &:hover {
     color: $color-primary;
     text-decoration: underline;
