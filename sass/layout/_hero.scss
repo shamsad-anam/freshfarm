@@ -19,6 +19,10 @@
       height: 60vh;
     }
 
+    &:focus {
+      outline: none;
+    }
+
     &--1 {
       background-image: linear-gradient(
           90deg,
