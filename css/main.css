@@ -1637,6 +1637,11 @@ input[type="submit"] {
   margin: 1rem 1.5rem;
 }
 
+.header-bottom__item.active .header-bottom__link i,
+.header-bottom__item.active span {
+  color: #40a944;
+}
+
 .header-bottom__link i {
   font-size: 2.5rem;
   color: #2d6a4f;

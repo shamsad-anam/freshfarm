@@ -322,6 +322,12 @@
   }
   &__item {
     margin: 1rem 1.5rem;
+    &.active {
+      & .header-bottom__link i,
+      span {
+        color: $color-primary;
+      }
+    }
   }
   &__link {
     i {
