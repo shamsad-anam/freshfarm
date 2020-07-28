@@ -1,4 +1,5 @@
 node_modules/
 img/resources/
 deployed.zip
-desployed
+deployed
+*.zip
