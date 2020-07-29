@@ -6,7 +6,9 @@ let nextBtn =
 
 // ::: top hero slider :::
 $(".hero").slick({
-  autoplay: false,
+  autoplay: true,
+  speed: 1500,
+  autoplaySpeed: 5000,
   arrows: false,
   // prevArrow: prevBtn,
   // nextArrow: nextBtn,
