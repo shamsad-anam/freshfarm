@@ -1,7 +1,9 @@
 .drops {
   position: relative;
   cursor: pointer;
-
+  & box-icon {
+    fill: $color-white;
+  }
   &__title {
     font-size: inherit;
     @include flexCenter();

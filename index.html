@@ -15,9 +15,6 @@
       rel="stylesheet"
     />
 
-    <!-- ::: boxicons ::: -->
-    <link rel="stylesheet" href="assets/boxicons/css/boxicons.min.css" />
-
     <!-- ::: slick-slider :::  -->
     <link rel="stylesheet" href="assets/slick/slick/slick.css" />
 
@@ -26,6 +23,10 @@
 
     <!-- ::: css custom ::: -->
     <link rel="stylesheet" href="css/main.css" />
+
+    <!-- ::: boxicons ::: -->
+    <link rel="stylesheet" href="assets/boxicons/css/boxicons.min.css" />
+    <script src="assets/boxicons/dist/boxicons.js"></script>
   </head>
   <body>
     <!-- ::: header ::: -->
@@ -40,7 +41,7 @@
               <div class="header-sub__language">
                 <div class="my-btn d-flex align-items-center">
                   Language
-                  <i class="bx bx-chevron-down"></i>
+                  <box-icon name="chevron-down"></box-icon>
                 </div>
                 <div class="header-sub__language-list">
                   <ul class="ml-2">
@@ -57,7 +58,7 @@
               <div class="header-sub__currency ml-3">
                 <a href="" class="my-btn d-flex align-items-center">
                   Currency
-                  <i class="bx bx-chevron-down"></i>
+                  <box-icon name="chevron-down"></box-icon>
                 </a>
 
                 <div class="header-sub__currency-list">
@@ -75,19 +76,19 @@
 
           <div class="header-sub__socials">
             <a href="https://facebook.com/" class="header-sub__link">
-              <i class="bx bxl-facebook-circle"></i>
+              <box-icon name="facebook-circle" type="logo"></box-icon>
             </a>
             <a href="https://instagram.com/" class="header-sub__link">
-              <i class="bx bxl-instagram"></i>
+              <box-icon name="instagram" type="logo"></box-icon>
             </a>
             <a href="https://twitter.com/" class="header-sub__link">
-              <i class="bx bxl-twitter"></i>
+              <box-icon name="twitter" type="logo"></box-icon>
             </a>
             <a href="https://www.youtube.com/" class="header-sub__link">
-              <i class="bx bxl-youtube"></i>
+              <box-icon name="youtube" type="logo"></box-icon>
             </a>
             <a href="https://myaccount.google.com/" class="header-sub__link">
-              <i class="bx bxl-google-plus"></i
+              <box-icon name="google-plus" type="logo"></box-icon
             ></a>
           </div>
         </div>
@@ -114,7 +115,7 @@
                 />
                 <div class="input-group-append">
                   <span class="input-group-text">
-                    <i class="bx bx-search-alt"></i>
+                    <box-icon name="search-alt"></box-icon>
                   </span>
                 </div>
               </div>
@@ -123,7 +124,7 @@
           <div class="header-top__login">
             <a href="registration.html">
               <div class="f-center">
-                <i class="bx bx-user"></i>
+                <box-icon name="user"></box-icon>
                 <span>
                   Account
                 </span>
@@ -137,7 +138,7 @@
           <div class="header-top__cart">
             <div class="f-center">
               <a href="cart.html">
-                <i class="bx bx-cart"></i>
+                <box-icon name="cart"></box-icon>
               </a>
               <span class="header-top__count ml-1 align-self-start"
                 >$399.99</span
@@ -155,7 +156,7 @@
             <div class="drops">
               <div class="drops__title drops__title--primary">
                 Our Products
-                <i class="bx bx-chevron-down"></i>
+                <box-icon name="chevron-down"></box-icon>
               </div>
               <div class="drops__list drops__list--big">
                 <ul class="ml-2">
@@ -193,7 +194,7 @@
               <div class="header-menu__hotline">
                 <a href="tel:+1111222333">
                   <div class="f-center">
-                    <i class="bx bx-phone-call"></i>+1 111-222-333
+                    <box-icon name="phone-call"></box-icon>+1 111-222-333
                   </div>
                 </a>
               </div>
@@ -211,7 +212,7 @@
             <div
               class="d-flex flex-column align-items-center justify-content-center"
             >
-              <i class="bx bxs-home"></i>
+              <box-icon name="home" type="solid"></box-icon>
               <span>Home</span>
             </div>
           </a>
@@ -221,7 +222,7 @@
             <div
               class="d-flex flex-column align-items-center justify-content-center"
             >
-              <i class="bx bxs-shopping-bags"></i>
+              <box-icon name="shopping-bags" type="solid"></box-icon>
               <span>Shop</span>
             </div>
           </a>
@@ -231,7 +232,7 @@
             <div
               class="d-flex flex-column align-items-center justify-content-center"
             >
-              <i class="bx bxs-user"></i>
+              <box-icon name="user"></box-icon>
               <span>Account</span>
             </div>
           </a>
@@ -241,7 +242,7 @@
             <div
               class="d-flex flex-column align-items-center justify-content-center"
             >
-              <i class="bx bxs-cart"></i>
+              <box-icon name="cart"></box-icon>
               <span>Cart</span>
             </div>
           </a>
@@ -251,24 +252,6 @@
 
     <!-- ::: hero ::: -->
     <div class="hero">
-      <div class="hero__slide hero__slide--2">
-        <div class="d-flex flex-column justify-content-center h-100">
-          <div class="hero__title">
-            Fresh Fruits
-          </div>
-          <div class="hero__desc">
-            <p>
-              Fresh carrots, broccoli, cucumbers, lettuce, pumpkins, beets and
-              lot more right out of our fields.
-            </p>
-          </div>
-          <div>
-            <a href="shop.html" class="my-btn-lg">
-              Discover
-            </a>
-          </div>
-        </div>
-      </div>
       <div class="hero__slide hero__slide--1">
         <div class="d-flex flex-column justify-content-center h-100">
           <div class="hero__title">
@@ -287,6 +270,25 @@
           </div>
         </div>
       </div>
+      <div class="hero__slide hero__slide--2">
+        <div class="d-flex flex-column justify-content-center h-100">
+          <div class="hero__title">
+            Fresh Fruits
+          </div>
+          <div class="hero__desc">
+            <p>
+              Fresh carrots, broccoli, cucumbers, lettuce, pumpkins, beets and
+              lot more right out of our fields.
+            </p>
+          </div>
+          <div>
+            <a href="shop.html" class="my-btn-lg">
+              Discover
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div class="hero__slide hero__slide--3">
         <div class="d-flex flex-column justify-content-center h-100">
           <div class="hero__title">
@@ -1674,7 +1676,11 @@
             <a href="shop.html" class="my-btn-lg text-white">
               <div class="f-center">
                 Learn More
-                <i class="bx bx-right-arrow-circle ml-2"></i>
+                <box-icon
+                  name="right-arrow-circle"
+                  type="solid"
+                  class="ml-2"
+                ></box-icon>
               </div>
             </a>
           </div>
@@ -2267,12 +2273,6 @@
               <div class="mb-3">
                 Copyright &copy; <span id="year"></span> Shamsad Anam
               </div>
-            </div>
-            <div class="footer__icon text-green">
-              <a href=""><i class="fab fa-facebook"></i></a>
-              <a href=""><i class="fab fa-instagram"></i></a>
-              <a href=""><i class="fab fa-twitter"></i></a>
-              <a href=""><i class="fab fa-whatsapp"></i></a>
             </div>
           </div>
           <div class="col-lg-8 col-sm-12 mt-5 mt-lg-5">

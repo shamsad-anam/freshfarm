@@ -1,14 +1,15 @@
 let prevBtn =
-  '<span class="slick-prev"><i class="bx bxs-chevron-left" ></i></i></span>';
+  '<span class="slick-prev"><box-icon type="solid" name="chevron-left"></box-icon></span>';
 
 let nextBtn =
-  '<span class="slick-next"><i class="bx bxs-chevron-right" ></i></i></span>';
+  '<span class="slick-next"><box-icon type="solid" name="chevron-right"></box-icon></span>';
 
 // ::: top hero slider :::
 $(".hero").slick({
   autoplay: false,
-  prevArrow: prevBtn,
-  nextArrow: nextBtn,
+  arrows: false,
+  // prevArrow: prevBtn,
+  // nextArrow: nextBtn,
 });
 // ::: testimonials section :::
 $(".testimonials").slick({
